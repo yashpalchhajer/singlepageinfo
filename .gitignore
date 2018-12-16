@@ -1,0 +1,13 @@
+.git
+/admin/node_modules
+/admin/public/hot
+/admin/public/storage
+/admin/storage/*.key
+/admin/vendor
+/admin/.idea
+/admin/.vagrant
+/admin/Homestead.json
+/admin/Homestead.yaml
+/admin/npm-debug.log
+/admin/yarn-error.log
+/admin/.env

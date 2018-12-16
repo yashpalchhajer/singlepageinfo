@@ -1,0 +1,26 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+  - .env
+
+env_variables:
+  # Put production environment variables here.
+  APP_LOG: errorlog
+  APP_KEY: base64:BeI1rZOKqrCQ3lm23XAZziSXxbjrXhv87cxrI0LbcGo=
+  STORAGE_DIR: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database;
+  ## Cloud SQL Configuration variable
+  DB_HOST: localhost
+  DB_DATABASE: vinayak_computers
+  DB_USERNAME: root
+  DB_PASSWORD: yash@9560
+  DB_SOCKET: "/cloudsql/buoyant-country-216306:europe-north1:vinayak-computers"
+
+beta_settings:
+  cloud_sql_instances: "buoyant-country-216306:europe-north1:vinayak-computers"

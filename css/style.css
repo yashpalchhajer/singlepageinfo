@@ -1,0 +1,49 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    /* background: url("../img/banner/Homepage-Banner.png"); */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: cover; */
+}
+
+#news-card{
+  height: 350px;
+  background: transparent;
+  border: solid 1px #333333;
+  color:white;
+}
+.news-card card-text{
+  color:greenyellow;
+}
+.top-nav-collapse {
+  background-color: #24355C;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+
+.md-form label.active{
+  color: white;
+}
+
+.form-inline label{
+  color:white;
+}
